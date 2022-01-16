@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0%;
+  font-family: 'Montserrat';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Nav {
+  display: flex;
+  height: 70px;
+  margin-top: 0;
+  /* margin-left: -10px; */
+  /* margin-bottom: 100px; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.Logo {
+   max-width: 150px;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+
+
+}
+
+.intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#grid-pic {
+  height: 450px;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#intro-header {
+  margin-bottom: 1rem;
+}
+
+#intro-text {
+  margin-top: 0;
+}
+
+#review-star {
+  height: 20px;
+}
+
+.card {
+  width: 250px;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 9px;
+  
+}
+
+.gray {
+  color: #918E9B;
 }
